@@ -1,4 +1,4 @@
-# Efficient Defective Clique Enumeration and Search with Worst-Case Optimal Search Space
+# Efficient Defective Clique Enumeration and Search with Worst-Case Optimal Search Space (SIGMOD 2026)
 This repository implements algorithms for maximal k-defective clique enumeration and maximum k-defective clique search.
 
 
