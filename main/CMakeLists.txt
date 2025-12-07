@@ -48,6 +48,10 @@ add_compile_options(-DNO_COLOR_TRUSS)
 add_compile_options(-DRECOLOR)
 add_compile_options(-DNO_PIVOT_FROM_X)
 
+# Release mode
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -march=native -funroll-loops -DNDEBUG")
+set(CMAKE_BUILD_TYPE Release)
+
 add_executable(
   main.out
   main.cc
